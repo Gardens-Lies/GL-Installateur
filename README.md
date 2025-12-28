@@ -1,1 +1,1 @@
-Setup pour le jeu Garden Lies
+Setup pour le jeu Garden's Lies
