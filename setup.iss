@@ -18,4 +18,4 @@ Source: "_build\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs create
 ; Raccourci dans le menu démarrer
 Name: "{group}\Garden's Lies"; Filename: "{app}\Garden's Lies.exe"
 ; Raccourci sur le bureau
-Name: "{commondesktop}\Garden Lies"; Filename: "{app}\Garden's Lies.exe"
+Name: "{commondesktop}\Garden's Lies"; Filename: "{app}\Garden's Lies.exe"
