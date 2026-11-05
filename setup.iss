@@ -1,4 +1,5 @@
 [Setup]
+AppId={1EAE6F47-F052-40A9-AE5C-A7F9B689C6E1}
 AppName=Garden's Lies
 AppVersion=Any
 DefaultDirName={pf}\Garden's Lies
