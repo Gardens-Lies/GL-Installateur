@@ -5,7 +5,7 @@
 AppId={{1EAE6F47-F052-40A9-AE5C-A7F9B689C6E1}
 AppName={#NomJeu}
 AppVersion={#VersionJeu}
-DefaultDirName={pf}\{#NomJeu}
+DefaultDirName={autopf}\{#NomJeu}
 DefaultGroupName={#NomJeu}
 
 ; Les fichiers du jeu sont à placer ici.
