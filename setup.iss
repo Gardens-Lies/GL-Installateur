@@ -1,9 +1,12 @@
+#define VersionJeu "Any"
+#define NomJeu "Garden's Lies"
+
 [Setup]
-AppId={1EAE6F47-F052-40A9-AE5C-A7F9B689C6E1}
-AppName=Garden's Lies
-AppVersion=Any
-DefaultDirName={pf}\Garden's Lies
-DefaultGroupName=Garden's Lies
+AppId={{1EAE6F47-F052-40A9-AE5C-A7F9B689C6E1}
+AppName={#NomJeu}
+AppVersion={#VersionJeu}
+DefaultDirName={pf}\{#NomJeu}
+DefaultGroupName={#NomJeu}
 
 ; Les fichiers du jeu sont à placer ici.
 OutputDir=_output
@@ -17,6 +20,6 @@ Source: "_build\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs create
 
 [Icons]
 ; Raccourci dans le menu démarrer
-Name: "{group}\Garden's Lies"; Filename: "{app}\Garden's Lies.exe"
+Name: "{group}\{#NomJeu}"; Filename: "{app}\{#NomJeu}.exe"
 ; Raccourci sur le bureau
-Name: "{commondesktop}\Garden's Lies"; Filename: "{app}\Garden's Lies.exe"
+Name: "{commondesktop}\{#NomJeu}"; Filename: "{app}\{#NomJeu}.exe"
